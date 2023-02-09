@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens flexíveis</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispsitivos diferentes ou simplesmente aumente e diminua o tamnho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagemP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-M.png" type="image/png">
+        <img src="imagens/imagem-G.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <audio preload="metadata" controls loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <source src="midia/happy-mistake.wav" type="audio/wav">
+        <p>Infelizmente não foi possível carregar a música no seu navegador <a href="midia/happy-mistake.mp3">clique aqui para fazer o downlowad</a></p>
+    </audio>
+
+    <h1>Reproduzindo vídeos</h1>
+    
+</body>
+</html>

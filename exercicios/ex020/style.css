@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    margin: 10px;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:active{
+    color: green;
+}
+
+input#yes:checked + label{
+    color: lightgreen;
+}
+
+input#no:checked + label{
+    color: red;
+}
+
+input#opt-1:checked + label{
+    color: red;
+}
+
+input#opt-2:checked + label{
+    color: blueviolet;
+}
+
+input#opt-3:checked + label{
+    color: orange;
+}
+
+select{
+    width: 100px;
+}
+
+.margin{
+    margin: 20px;
+}
+
+button:active{
+    color: red;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+
+        header{
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+        }
+
+        nav{
+            background-color: rgba(0, 0, 0, 0.425);
+            padding: 3px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.555);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav> a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        main{
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+        }
+
+        footer{
+            margin: 10px;
+            padding: 1px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        footer > p{
+            margin: 0px;
+            padding: 4px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.555);
+        }
+
+        article{
+            margin-bottom: 8px;
+            background-color: lightgray;
+            padding: 5px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.555);
+            border-radius: 7px 7px 7px 7px ;
+        }
+
+        article > aside{
+            background-color: rgb(158, 154, 154);
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        section > h1{
+            background-color: rgb(158, 157, 157);
+            padding: 5px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.555);
+
+        }
+
+        .paragrafo{
+            text-indent: 20px;
+        }
+
+        article > h2{
+            margin-left: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>Jogos que ganharam o jogo do ano</h1>
+        </section>
+        <section class="noticias">
+            <article>
+                <h2>God Of War</h2>
+                    <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio labore enim fugiat cum laudantium! Magni vitae rerum facilis, ipsam illo, architecto eos provident ducimus optio sunt qui at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis exercitationem consectetur suscipit! Dolore quos corrupti, quasi eligendi veniam repellat iusto qui excepturi distinctio tempore voluptatibus earum a tenetur, fugiat explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium omnis labore molestias excepturi repellendus suscipit aspernatur unde neque mollitia magni assumenda adipisci autem necessitatibus iste architecto et dolorum, eveniet dolor?</p>
+                    <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio labore enim fugiat cum laudantium! Magni vitae rerum facilis, ipsam illo, architecto eos provident ducimus optio sunt qui at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis exercitationem consectetur suscipit! Dolore quos corrupti, quasi eligendi veniam repellat iusto qui excepturi distinctio tempore voluptatibus earum a tenetur, fugiat explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium omnis labore molestias excepturi repellendus suscipit aspernatur unde neque mollitia magni assumenda adipisci autem necessitatibus iste architecto et dolorum, eveniet dolor?</p>
+                <aside>
+                    <p>Artigo escrito por Sony</p>
+                </aside>
+            </article>
+            <article>
+                <h2>The Last of Us Part II</h2>
+                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio labore enim fugiat cum laudantium! Magni vitae rerum facilis, ipsam illo, architecto eos provident ducimus optio sunt qui at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis exercitationem consectetur suscipit! Dolore quos corrupti, quasi eligendi veniam repellat iusto qui excepturi distinctio tempore voluptatibus earum a tenetur, fugiat explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium omnis labore molestias excepturi repellendus suscipit aspernatur unde neque mollitia magni assumenda adipisci autem necessitatibus iste architecto et dolorum, eveniet dolor?</p> 
+                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio labore enim fugiat cum laudantium! Magni vitae rerum facilis, ipsam illo, architecto eos provident ducimus optio sunt qui at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis exercitationem consectetur suscipit! Dolore quos corrupti, quasi eligendi veniam repellat iusto qui excepturi distinctio tempore voluptatibus earum a tenetur, fugiat explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium omnis labore molestias excepturi repellendus suscipit aspernatur unde neque mollitia magni assumenda adipisci autem necessitatibus iste architecto et dolorum, eveniet dolor?</p>
+                <aside>
+                    <p>Artigo escrito por Naughty dog</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabriel Revolti Viana Padilha</p>
+    </footer>
+</body>
+</html>
