@@ -3,4 +3,6 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar repositórios!
 
-<a href='https://gabrielrevolti.github.io/html-css/exercicios/ex001/index.html'>Executar o exercicio 001</a>
+<a href='https://gabrielrevolti.github.io/Projeto-Android/index.html'>Bugdroid</a>
+
+<a href='https://gabrielrevolti.github.io/html-css/desafios/d012/index.html'>Projeto Cordel</a>
